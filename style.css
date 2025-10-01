@@ -457,6 +457,7 @@ nav .fa-solid{
     .projects-list{
         margin-left: 50px;
         flex-basis: 100%;
+        width:400px;
     }
     #portfolio .sub-title{
        flex-basis: 100%;
