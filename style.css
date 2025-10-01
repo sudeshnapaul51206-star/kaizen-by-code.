@@ -373,7 +373,8 @@ nav .fa-solid{
 @media only screen and (max-width: 600px){
     .header-image{
         width:200px;
-        margin-left:120%;
+        margin-left:110%;
+        margin-right:10%;
     }
     .header-text{
         margin-top:-200px;
@@ -386,8 +387,8 @@ nav .fa-solid{
     display:block;
     font-size: 25px;
     top: 70px;
-    left: 450px;
-    right: 50px;
+    left: 500px;
+    right: 30px;
     position:absolute;
     }
     nav ul{
