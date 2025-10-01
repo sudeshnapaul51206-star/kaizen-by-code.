@@ -10,8 +10,6 @@ body{
    font-family: 'Poppins',sans-serif;
    color:#d35c5c;
    background-color:#fff1ca;
-
-   background-image: url("images/techno-sudeshna\ 3.jpeg");
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -22,6 +20,11 @@ body{
     background: rgda(0,0,0,0.5);
     border-radius: 10px;
     margin: 0;
+}
+.header-image{
+    width:200px;
+    margin-top:60px;
+    margin-left:70%;
 }
 .container{
     padding: 10px 10%;
@@ -60,7 +63,7 @@ nav ul li a:hover::after{
     width:100%;
 }
 .header-text{
-    margin-top:11%;
+    margin-top:-170px;
     font-size:25px;
 }
 .header-text h1{
@@ -368,11 +371,12 @@ nav .fa-solid{
     display: none;
 }
 @media only screen and (max-width: 600px){
-    body{
-       background-image: url(images/phone\ cover.jpeg);
+    .header-image{
+        width:200px;
+        margin-left:120%;
     }
     .header-text{
-        margin-top:65px;
+        margin-top:-200px;
         font-size:18px;
     }
     .header-text h1 span{
