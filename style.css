@@ -369,7 +369,7 @@ nav .fa-solid{
 }
 @media only screen and (max-width: 600px){
     body{
-       background-image: url(images/cover\ image\ for\ phone\ \(2\).jpeg);
+       background-image: url(images/phone\ cover.jpeg);
     }
     .header-text{
         margin-top:65px;
