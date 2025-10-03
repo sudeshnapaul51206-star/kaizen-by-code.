@@ -336,7 +336,7 @@ nav ul li a:hover::after{
     color:#e46a6a;
     font-size:17px;
     text-decoration: none;
-    margin-left:20px;
+    margin-left:30px;
 }
 .contact-left i{
     color:#e46a6a;
@@ -414,7 +414,7 @@ nav .fa-solid{
         margin-left:-5px;
     }
     .social-icons-top a{
-        font-size:20px;
+        font-size:15px;
         margin-top:-60px;
         margin-left:10px;
     }
