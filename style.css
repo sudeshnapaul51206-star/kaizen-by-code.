@@ -78,6 +78,21 @@ nav ul li a:hover::after{
 .intro{
     margin-top:11px;
 }
+.social-icons-top a{
+    text-decoration: none;
+    font-size:25px;
+    margin-top:-10px;
+    margin-right:20px;
+    margin-left:10px;
+    color: #873f2b;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons-top a:hover{
+    color:#e46a6a;
+    transform: translateY(-4px);
+}
+
 /*--------------about------------*/
 #about{
     padding:80px;
@@ -317,11 +332,22 @@ nav ul li a:hover::after{
 .contact-right{
     flex-basis:60%;
 }
-.social-icons a{
+.contact-left p{
+    color:#e46a6a;
     font-size:17px;
-    margin-top:10px;
-    margin-right:15px;
+    text-decoration: none;
     margin-left:10px;
+}
+.contact-left p i{
+    color:#e46a6a;
+    font-size: 25px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size:25px;
+    margin-top:30px;
+    margin-right:10px;
+    margin-left:30px;
     color: #873f2b;
     display: inline-block;
     transition: transform 0.5s;
@@ -382,6 +408,15 @@ nav .fa-solid{
     }
     .header-text h1 span{
         font-size:45px;
+    }
+    .social-icons-top h5{
+        margin-bottom: 30px;
+        margin-left:-5px;
+    }
+    .social-icons-top a{
+        font-size:20px;
+        margin-top:-60px;
+        margin-left:10px;
     }
     nav .fa-solid{
     display:block;
